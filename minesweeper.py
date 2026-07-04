@@ -175,7 +175,7 @@ def pelaa_peli():
     alkuaika = time.time()
     tila["aloitusaika"] = alkuaika
  
-    haravasto.lataa_kuvat("C:\\Users\\Jatko\\spritet")
+    haravasto.lataa_kuvat("icons")
     haravasto.luo_ikkuna(ikkuna_leveys, ikkuna_korkeus)
     haravasto.aseta_hiiri_kasittelija(kasittele_hiiri)
     haravasto.aseta_piirto_kasittelija(piirra_kentta)
